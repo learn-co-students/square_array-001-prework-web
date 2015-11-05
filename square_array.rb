@@ -8,3 +8,9 @@ def square_array(array)
 	end
 	return result
 end
+
+def square_array_advanced(array)
+	array.collect { |num| num ** 2 }
+end
+
+
