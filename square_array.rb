@@ -1,3 +1,11 @@
 def square_array(array)
-  # your code here
+  arr = []
+  array.each do |i|
+   arr << i * i
+  end
+  arr
 end
+
+#def square_array(array)
+#  array.collect { |i| i*i}
+#end
