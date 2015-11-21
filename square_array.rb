@@ -9,6 +9,5 @@ end
 
   def collector
     array.collect{|num| num **2}
-
-  end
+end
 
