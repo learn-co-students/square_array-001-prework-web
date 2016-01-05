@@ -7,3 +7,12 @@ def square_array(array)
   end
   return newArray
 end
+
+
+# method using collect
+def square_array_with_collect(array)
+
+  array.collect {|number| number**2}
+
+end
+
