@@ -8,4 +8,12 @@ def square_array(array)
     end
 end
 
-square_array([1, 4, 6, 7])
+
+
+def better_square_array(array)
+  # your code here
+    array.map!{|num| num ** 2}
+#     puts array
+end
+
+better_square_array([1, 4, 6, 7])
