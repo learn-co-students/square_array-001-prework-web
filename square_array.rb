@@ -7,9 +7,11 @@ def square_array(array)
   return new_array
 end
 #square_array(array)
-
-
-
+array = [1,8,20]
+def square_array_collect(array)
+    array.collect {|x| x*x}
+end
+square_array_collect(array)
 #a = [1,2,3]
 #a.each {|x| print x, " -- " }
 #array.each do {|n| (n**n)
