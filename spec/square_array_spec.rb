@@ -1,3 +1,7 @@
+
+
+
+
 describe '#square_array' do
 
   it 'does not call on collect/map or inject' do
