@@ -1,8 +1,10 @@
-def square_array(array)
+def square_array(numbers)
+  new_numbers = []
 
-  array.each do |numbers|
-    new_number = numbers*numbers
-    puts new_number
+  numbers.each do |number|
+    new_numbers.push(number*number)
   end
+
+  return new_numbers
 
 end
