@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+
+  array.collect do |x|
+     x * x
+  end
+
 end
