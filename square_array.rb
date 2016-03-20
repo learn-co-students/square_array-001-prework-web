@@ -9,7 +9,7 @@ def square_array(array)
 end
 
 ## more abstract
-def square_array_w_collect(array2)
+def square_array_w_collect(array)
 	array.collect do |num|
 		num ** 2
 	end
@@ -28,7 +28,6 @@ end
 
 
 
-binding.pry
 square_array([1,2,3])
 square_array_w_collect([1,2,3])
 square_array_w_while([1,2,3])
