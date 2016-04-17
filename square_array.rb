@@ -1,11 +1,9 @@
 
-new_numbers = [9,10,16,25]
 
 def square_array(array)
-numbers = [1,2,3]
+numbers = []
 array.each do |int|
- puts (int**2)
+ numbers << int**2 
 end
+array = numbers
 end
-
-#when i used return instead of puts, it only gave me the return of the first number, not the whole array. Why?? 
