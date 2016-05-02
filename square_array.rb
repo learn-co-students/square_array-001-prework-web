@@ -1,11 +1,11 @@
-numbers = [1, 2, 3]
+nums = [1, 2, 3]
 
-def square_array(array)
-  empty_array = []
+def square_array(nums)
+  squarred_array = []
 
-  array.each do |num|
-    empty_array << num ** 2
+  nums.each do |x|
+    squarred_array << (x **= 2)
   end
-
+  
+  nums = squarred_array
 end
-
