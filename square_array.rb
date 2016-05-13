@@ -7,3 +7,10 @@ def square_array(array)
   
   new_array
 end
+
+
+=begin
+def square_array(array)
+  array.collect {|x| x**2}
+end
+=end
