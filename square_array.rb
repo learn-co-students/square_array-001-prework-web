@@ -1,3 +1,4 @@
+require 'pry'
 def square_array(array)
   # your code here
   my_square_array = Array.new
@@ -6,5 +7,6 @@ def square_array(array)
     my_square_array[counter] = square * square
     counter += 1
   end
-  my_square_array
+  ##my_square_array = array.collect {|x| x * x}
+
 end
