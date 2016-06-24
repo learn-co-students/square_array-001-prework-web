@@ -1,3 +1,4 @@
-def square_array(array)
-  # your code here
+def square_array(numbers=[])
+  numbers.each {|x| x**2}
+  numbers.map! {|x| x**2}
 end
