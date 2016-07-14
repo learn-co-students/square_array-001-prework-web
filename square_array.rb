@@ -1,3 +1,11 @@
+
 def square_array(array)
-  # your code here
+  sq = []
+  array.each do|x|
+    sq.push(x*x)
+  end
+   return sq
+
+
+
 end
