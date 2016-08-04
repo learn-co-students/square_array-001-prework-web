@@ -1,12 +1,9 @@
 require 'pry'
 def square_array(array)
   # your code here
-  my_square_array = Array.new
-  counter = 0
-  array.each do |square| 
-    my_square_array[counter] = square * square
-    counter += 1
+  my_square_array = []
+  array.each do |x|
+    my_square_array << x * x
   end
-  ##my_square_array = array.collect {|x| x * x}
-
+  my_square_array
 end
