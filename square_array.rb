@@ -1,9 +1,7 @@
-numbers = [1,2,3]
-
-def square_array(numbers)
-  new_array = []
-  numbers.each do |number|
-  new_array << number**2
-end
- return new_array
+def square_array(array)
+  squared_array = []
+  array.each do |x|
+    squared_array << x**2
+  end
+  squared_array
 end
