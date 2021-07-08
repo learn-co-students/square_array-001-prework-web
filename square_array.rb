@@ -1,3 +1,10 @@
+
+
 def square_array(array)
-  # your code here
+  new_array = []
+array.each do |number| #iterate through array
+  new_array << (number**2)
 end
+return new_array
+end
+
